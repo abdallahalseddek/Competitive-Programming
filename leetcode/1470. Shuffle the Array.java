@@ -1,5 +1,5 @@
 class Solution {
-  public int[] shuffle(int[] nums, int n) {
+    public int[] shuffle(int[] nums, int n) {
         int[] res = new int[2 * n];
         int i = 0;
         int j = n;
@@ -10,7 +10,7 @@ class Solution {
             res[curr] = nums[i];
             curr++; //1
             i++; //1
-            res[curr] /**/= nums[j];
+            res[curr] /**/ = nums[j];
             curr++;
             j++;
         }
